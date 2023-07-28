@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <h1>Sample Form</h1>
+      <form action="/submit" method="post">
+        <!-- Text Input -->
+        <label for="name">Name:</label>
+        <input type="text" name="name" required /><br /><br />
+        <!-- Text Input -->
+        <label for="RollNO.">RollNo.:</label>
+        <input type="number" name="rollNO." required /><br /><br />
+        <!-- Text Input -->
+        <label for="Division">Division:</label>
+        <input type="text" name="Division" required /><br /><br />
+        <!-- Select Dropdown -->
+        <label for="Branch">Branch:</label>
+        <select name="Branch" required>
+          <option value="">Select Branch</option>
+          <option value=" ">Comps</option>
+          <option value=" ">IT</option>
+          <option value=" ">AIDS</option>
+          <option value=" ">Extc</option>
+          <option value=" ">Chem</option>
+          <option value=" ">Mech</option></select
+        ><br /><br />
+        <!-- Text Input -->
+        <label for="PhoneNo.">PhoneNo.:</label>
+        <input type="number" name="PhoneNo." required /><br /><br />
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" name="email" required /><br /><br />
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male" required />
+        <label>Male</label>
+        <input type="radio" name="gender" value="female" required />
+        <label>Female</label><br /><br />
+
+        <!-- Checkboxes -->
+        <label>Hobbies:</label><br /><br />
+        <input type="checkbox" name="hobbies" value="reading" />
+        <label>Reading</label><br /><br />
+        <input type="checkbox" name="hobbies" value="traveling" />
+        <label>Traveling</label><br /><br />
+        <input type="checkbox" name="hobbies" value="cooking" />
+        <label>Cooking</label><br /><br />
+
+        <!-- Textarea -->
+        <label for="message">Why do you want to join this committee:</label
+        ><br /><br />
+        <textarea name="message" rows="4" cols="50" required></textarea
+        ><br /><br />
+
+        <!-- Submit Button -->
+        <div class="but"><button>submit</button></div>
+      </form>
+    </div>
+  </body>
+</html>
